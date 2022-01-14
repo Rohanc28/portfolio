@@ -68,7 +68,7 @@ h4{
   background-image: url("flask1.png"); 
   /* enter background image and use bkg-pos to change focus*/
   background-size:cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no repeat;
   padding: 9rem 0 0;
   border-radius:30px;
