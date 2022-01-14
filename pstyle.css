@@ -62,7 +62,23 @@ h4{
   box-shadow: 3px 9px 10px black;
 
 }
+
 .card-area .card:nth-child(1){
+  color:var(--b);
+  background-image: url("flask1.png"); 
+  /* enter background image and use bkg-pos to change focus*/
+  background-size:cover;
+  background-position: center;
+  background-repeat: no repeat;
+  padding: 9rem 0 0;
+  border-radius:30px;
+  max-width:40ch;
+  transition:0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+  overflow:hidden;
+  max-height:fit-content;
+}
+
+.card-area .card:nth-child(2){
   color:var(--b);
   background-image: url("cafe1.png"); 
   /* enter background image and use bkg-pos to change focus*/
@@ -77,7 +93,7 @@ h4{
   max-height:fit-content;
 }
 
-.card-area .card:nth-child(2){
+.card-area .card:nth-child(3){
   color:var(--b);
   background-image: url("liq_plus_icon.png"); 
   /* enter background image and use bkg-pos to change focus*/
@@ -93,7 +109,7 @@ h4{
   transform: scaleY(0.9);
 }
 
-.card-area .card:nth-child(3){
+.card-area .card:nth-child(4){
   color:var(--b);
   background-image: url("chain1.png"); 
   /* enter background image and use bkg-pos to change focus*/
@@ -108,7 +124,7 @@ h4{
   
   transform: scaleY(0.95);
 }
-.card-area .card:nth-child(4){
+.card-area .card:nth-child(5){
   color:var(--b);
   background-image: url("stop1.png"); 
   /* enter background image and use bkg-pos to change focus*/
@@ -122,7 +138,7 @@ h4{
   overflow:hidden;
   transform: scaleY(0.9);
 }
-.card-area .card:nth-child(5){
+.card-area .card:nth-child(6){
   color:var(--b);
   background-image: url("ttt1.png"); 
   /* enter background image and use bkg-pos to change focus*/
