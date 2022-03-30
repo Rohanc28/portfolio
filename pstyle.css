@@ -65,7 +65,7 @@ h4{
 
 .card-area .card:nth-child(1){
   color:var(--b);
-  background-image: url("flask1.png"); 
+  background-image: url("static/flask1.png"); 
   /* enter background image and use bkg-pos to change focus*/
   background-size:cover;
   background-position: bottom;
@@ -81,7 +81,7 @@ h4{
 
 .card-area .card:nth-child(2){
   color:var(--b);
-  background-image: url("cafe1.png"); 
+  background-image: url("static/cafe1.png"); 
   /* enter background image and use bkg-pos to change focus*/
   background-size:cover;
   background-position: center;
@@ -96,7 +96,7 @@ h4{
 
 .card-area .card:nth-child(3){
   color:var(--b);
-  background-image: url("liq_plus_icon.png"); 
+  background-image: url("static/liq_plus_icon.png"); 
   /* enter background image and use bkg-pos to change focus*/
   
   background-position: center;
@@ -112,7 +112,7 @@ h4{
 
 .card-area .card:nth-child(4){
   color:var(--b);
-  background-image: url("chain1.png"); 
+  background-image: url("static/chain1.png"); 
   /* enter background image and use bkg-pos to change focus*/
   background-size: cover;
   background-position: center;
@@ -127,7 +127,7 @@ h4{
 }
 .card-area .card:nth-child(5){
   color:var(--b);
-  background-image: url("stop1.png"); 
+  background-image: url("static/stop1.png"); 
   /* enter background image and use bkg-pos to change focus*/
   background-size: cover;
   background-position: center;
@@ -141,7 +141,7 @@ h4{
 }
 .card-area .card:nth-child(6){
   color:var(--b);
-  background-image: url("ttt1.png"); 
+  background-image: url("static/ttt1.png"); 
   /* enter background image and use bkg-pos to change focus*/
   background-size: cover;
   background-position: center;
