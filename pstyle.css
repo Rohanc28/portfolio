@@ -76,7 +76,7 @@ h4{
   transition:0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
   overflow:hidden;
   max-height:fit-content;
-  transform: scaleY(0.95);
+  transform: scaleY(0.9);
 }
 
 .card-area .card:nth-child(2){
