@@ -83,6 +83,7 @@ h4{
 .card-area .card:nth-child(2){
   color:var(--b);
   background-image: url("static/flask1.png"); 
+  text-shadow: black 2px 0 10px;
   /* enter background image and use bkg-pos to change focus*/
   background-size:cover;
   background-position: bottom;
@@ -98,7 +99,8 @@ h4{
 
 .card-area .card:nth-child(3){
   color:var(--b);
-  background-image: url("static/cafe1.png"); 
+  background-image: url("static/cafe1.png");
+	  text-shadow: black 2px 0 10px;
   /* enter background image and use bkg-pos to change focus*/
   background-size:cover;
   background-position: top;
@@ -114,6 +116,7 @@ h4{
 .card-area .card:nth-child(4){
   color:var(--b);
   background-image: url("static/liq_plus_icon.png"); 
+	  text-shadow: black 2px 0 10px;
   /* enter background image and use bkg-pos to change focus*/
   
   background-position: center;
@@ -130,6 +133,7 @@ h4{
 .card-area .card:nth-child(5){
   color:var(--b);
   background-image: url("static/chain1.png"); 
+	  text-shadow: black 2px 0 10px;
   /* enter background image and use bkg-pos to change focus*/
   background-size: cover;
   background-position: center;
@@ -159,6 +163,7 @@ h4{
 .card-area .card:nth-child(6){
   color:var(--b);
   background-image: url("static/ttt1.png"); 
+	  text-shadow: black 2px 0 10px;
   /* enter background image and use bkg-pos to change focus*/
   background-size: cover;
   background-position: center;
