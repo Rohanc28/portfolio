@@ -73,7 +73,22 @@ h4{
 
 .card-area .card:nth-child(1){
   color:var(--b);
-  text-shadow: black 2px 0 10px;
+  background-image: url("static/park4.png"); 
+  /* enter background image and use bkg-pos to change focus*/
+  background-size:cover;
+  background-position: top;
+  background-repeat: no repeat;
+  padding: 9rem 0 0;
+  border-radius:30px;
+  max-width:40ch;
+  transition:0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+  overflow:hidden;
+  max-height:fit-content;
+  transform: scaleY(0.95);
+}
+
+.card-area .card:nth-child(2){
+  color:var(--b);
   background-image: url("static/flask1.png"); 
   /* enter background image and use bkg-pos to change focus*/
   background-size:cover;
@@ -85,15 +100,15 @@ h4{
   transition:0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
   overflow:hidden;
   max-height:fit-content;
-  transform: scaleY(0.9);
+  transform: scaleY(0.95);
 }
 
-.card-area .card:nth-child(2){
+.card-area .card:nth-child(3){
   color:var(--b);
   background-image: url("static/cafe1.png"); 
   /* enter background image and use bkg-pos to change focus*/
   background-size:cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no repeat;
   padding: 9rem 0 0;
   border-radius:30px;
@@ -103,7 +118,7 @@ h4{
   max-height:fit-content;
 }
 
-.card-area .card:nth-child(3){
+.card-area .card:nth-child(4){
   color:var(--b);
   background-image: url("static/liq_plus_icon.png"); 
   /* enter background image and use bkg-pos to change focus*/
@@ -119,7 +134,7 @@ h4{
   transform: scaleY(0.9);
 }
 
-.card-area .card:nth-child(4){
+.card-area .card:nth-child(5){
   color:var(--b);
   background-image: url("static/chain1.png"); 
   /* enter background image and use bkg-pos to change focus*/
@@ -134,10 +149,10 @@ h4{
   
   transform: scaleY(0.95);
 }
-.card-area .card:nth-child(5){
+/*.card-area .card:nth-child(5){
   color:var(--b);
   background-image: url("static/stop1.png"); 
-  /* enter background image and use bkg-pos to change focus*/
+  /* enter background image and use bkg-pos to change focus
   background-size: cover;
   background-position: center;
   background-repeat: no repeat;
@@ -147,7 +162,7 @@ h4{
   transition:0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
   overflow:hidden;
   transform: scaleY(0.9);
-}
+}*/
 .card-area .card:nth-child(6){
   color:var(--b);
   background-image: url("static/ttt1.png"); 
