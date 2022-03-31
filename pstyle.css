@@ -66,6 +66,7 @@ h4{
 .card-area .card:nth-child(1){
   color:var(--b);
   background-image: url("static/park4.png"); 
+  text-shadow: black 2px 0 10px;
   /* enter background image and use bkg-pos to change focus*/
   background-size:cover;
   background-position: top;
