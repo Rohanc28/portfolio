@@ -365,6 +365,7 @@ nav .nav-bar .nav-bar_item a:hover:after {
   animation: fill 4s ease forwards 4s;
   
 }
+
 #logo path:nth-child(1) {
   stroke-dasharray: 700;
   stroke-dashoffset: 700;
@@ -580,16 +581,19 @@ h3 {
 }
 
 @media screen and (max-width: 670px) {
-  .contact ul li span :nth-child(1){
-    background:green;
+  .contact ul li :nth-child(1){
+    display:inline-block;
   }
-   .contact ul li :nth-child(2){
+  /* .contact ul li :nth-child(2){
     background:red;
-  }
+  }*/
   }
 }
 
 @media screen and (max-width: 600px) {
+  nav{
+    max-width:480px;
+  }
   nav ul li{
     font-size:12px;
     padding:8px;
