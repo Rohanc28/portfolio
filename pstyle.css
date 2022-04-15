@@ -124,7 +124,7 @@ h4{
   transition:0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
   overflow:hidden;
   background-size:cover;
-  transform: scaleY(0.99);
+  transform: scaleY(1.05);
 }
 
 .card-area .card:nth-child(4){
@@ -154,7 +154,7 @@ h4{
   max-width:40ch;
   transition:0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
   overflow:hidden;
-  transform: scaleY(1.05);
+  transform: scaleY(1.0);
 }
 .card-area .card:nth-child(6){
   color:var(--b);
