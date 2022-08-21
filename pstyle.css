@@ -602,6 +602,13 @@ body{
   .contact ul li :nth-child(1){
     display:inline-block;
   }
+#about{
+    margin-left:50px;
+  }
+.p1{
+    margin-left:50px;
+    margin-right:50px;
+  }
   /* .contact ul li :nth-child(2){
     background:red;
   }*/
