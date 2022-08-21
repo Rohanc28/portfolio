@@ -589,6 +589,11 @@ h3 {
   color: white;
 }
 
+.contact ul li{
+  list-style:none;
+  display:inline;
+}
+
 @media screen and (max-width: 670px) {
   .contact ul li :nth-child(1){
     display:inline-block;
@@ -596,13 +601,18 @@ h3 {
   /* .contact ul li :nth-child(2){
     background:red;
   }*/
+  .contact ul li{
+     list-style:none;
+     display:flex;
+    align-items:center;
+    justify-content:center;
+    align-content:center;
+    
   }
-}
+
 
 @media screen and (max-width: 600px) {
-  nav{
-    max-width:480px;
-  }
+  
   nav ul li{
     font-size:12px;
     padding:8px;
@@ -610,5 +620,13 @@ h3 {
   .logo{
     font-size:16px;
     padding:20px;
+  }
+  .contact ul li{
+    list-style:none;
+     display:flex;
+    align-items:center;
+    justify-content:center;
+    align-content:center;
+    
   }
 }
