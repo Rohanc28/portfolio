@@ -595,7 +595,7 @@ h3 {
 }
 
 @media screen and (max-width: 670px) {
-html,body{
+body{
     max-width:100%;
     overflow-x:hidden;
   }
@@ -616,7 +616,7 @@ html,body{
 
 
 @media screen and (max-width: 600px) {
-  html,body{
+  body{
     max-width:100%;
     overflow-x:hidden;
   }
