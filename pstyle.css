@@ -595,6 +595,10 @@ h3 {
 }
 
 @media screen and (max-width: 670px) {
+body{
+    max-width:100%;
+    overflow-x:hidden;
+  }
   .contact ul li :nth-child(1){
     display:inline-block;
   }
@@ -612,7 +616,10 @@ h3 {
 
 
 @media screen and (max-width: 600px) {
-  
+  body{
+    max-width:100%;
+    overflow-x:hidden;
+  }
   nav ul li{
     font-size:12px;
     padding:8px;
