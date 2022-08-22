@@ -86,7 +86,7 @@ h4{
     background-size:cover;
   }
   .layer1{
-    background-image:url('./top.svg');
+    background-image:url('./static/top.svg');
   }
   .spacer2{
     display:relative;
@@ -102,7 +102,7 @@ h4{
     background-size:cover;
   }
   .layer2{
-    background-image:url('./bottom.svg');
+    background-image:url('./static/bottom.svg');
   }
   .info{
     padding-top:50px;
