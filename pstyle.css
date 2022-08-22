@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb {
   background: rgb(255, 255, 255);
   border-radius: 40px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 100px){
   body{
   background: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5);
   background-size: 400% 400%;
