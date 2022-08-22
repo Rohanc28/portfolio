@@ -69,6 +69,53 @@ h4{
   transition:0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
   letter-spacing:2px;
 }
+
+
+  .spacer{
+    display:relative;
+    position: relative;
+    top: 220px;
+    left: 50%;
+    
+    transform: translate(-50%);
+    text-align: center;
+    aspect-ratio: 960/400;
+    width:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+  }
+  .layer1{
+    background-image:url('./top.svg');
+  }
+  .spacer2{
+    display:relative;
+    position:relative;
+    top:-3px;
+    left:50%;
+    transform: translate(-50%);
+    text-align: center;
+    aspect-ratio: 960/400;
+    width:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+  }
+  .layer2{
+    background-image:url('./bottom.svg');
+  }
+  .info{
+    padding-top:50px;
+    margin-top:13em;
+    background-color: #24a4c7;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    padding-bottom:10px;
+
+  }
+
+
 .card{
     
   flex-shrink: 0;
@@ -321,7 +368,7 @@ nav {
   z-index: 5;
 }
 .logo {
-  padding: 20px 0px 10px 0px;
+  padding: 20px ;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 20px;
