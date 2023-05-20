@@ -1,5 +1,5 @@
 var typed = new Typed(".auto-type", {
-    strings: ["^4000 I am a Software and Web Developer. ^1000 <br><br>^1000 Senior Year B.tech student in CSE at Jaypee University of Information technology, Solan.<br>Currently working at Paymentus Delhi as Software Development Engineer -Trainee.<br>A problem solver, organised and passionate coder with attention to details.<br><br>Fan of sports, TV series and love to read novels in free time.<br><br>I currently live in New Delhi, India."],
+    strings: ["^4000 I am a Software and Web Developer. ^1000 <br><br>^1000 Senior Year B.tech student in CSE at Jaypee University of Information technology, Solan.<br><br>Currently working at Paymentus Delhi as Software Development Engineer -Trainee.<br><br>A problem solver, organised and passionate coder with attention to details.<br><br>Fan of sports, TV series and love to read novels in free time.<br><br>I currently live in New Delhi, India."],
     typeSpeed: 60,
     loop: false
   })
